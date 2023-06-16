@@ -4,6 +4,11 @@ import { ConnectorSource } from '../types'
 
 export const connectors: Connector[] = [
   {
+    source: ConnectorSource.MantaWallet,
+    id: ConnectorSource.MantaWallet,
+    name: 'MantaWallet',
+  },
+  {
     source: ConnectorSource.Polkadot,
     id: ConnectorSource.Polkadot,
     name: 'Polkadot-js',
@@ -17,11 +22,6 @@ export const connectors: Connector[] = [
     source: ConnectorSource.Subwallet,
     id: ConnectorSource.Subwallet,
     name: 'Subwallet',
-  },
-  {
-    source: ConnectorSource.MantaWallet,
-    id: ConnectorSource.MantaWallet,
-    name: 'MantaWallet',
   },
 ]
 
