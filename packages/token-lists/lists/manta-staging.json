@@ -1,6 +1,6 @@
 {
   "name": "manta staging",
-  "timestamp": "2023-11-24T10:32:48.744Z",
+  "timestamp": "2024-01-10T09:19:07.087Z",
   "tokens": [
     {
       "networkId": 510,
@@ -12,16 +12,6 @@
       "symbol": "MANTA",
       "decimals": 18,
       "name": "MANTA"
-    },
-    {
-      "networkId": 510,
-      "address": "2104-2-37",
-      "parachainId": 2104,
-      "assetType": 2,
-      "assetIndex": 37,
-      "symbol": "JUMBO",
-      "decimals": 12,
-      "name": "JUMBO"
     },
     {
       "networkId": 510,
@@ -42,6 +32,16 @@
       "symbol": "DOT",
       "decimals": 10,
       "name": "Polkadot"
+    },
+    {
+      "networkId": 510,
+      "address": "2104-2-15",
+      "parachainId": 2104,
+      "assetType": 2,
+      "assetIndex": 15,
+      "symbol": "LDO",
+      "decimals": 18,
+      "name": "Lido (via Acala Wormhole)"
     }
   ]
 }

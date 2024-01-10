@@ -1,13 +1,13 @@
 {
   "name": "Manta Staging Pairs",
-  "timestamp": "2023-11-24T10:32:48.746Z",
+  "timestamp": "2024-01-10T09:19:07.092Z",
   "pairs": {
-    "2104-0-0-2104-2-37": {
-      "address": "2104-2-40",
-      "account": "dfZ2W8UP6LgvVLKEzTtoasFMS7r4XHx59eAaSXp3tFWqUe8bw"
+    "2104-0-0-2104-2-15": {
+      "address": "2104-2-37",
+      "account": "dfZ2W8UP6LgvVLKEzTtoVz93ttJNiGtH89YDw8xmAtBByfCyo"
     },
     "2104-0-0-2104-2-8": {
-      "address": "2104-2-39",
+      "address": "2104-2-38",
       "account": "dfZ2W8UP6LgvVLKEzTtoYKivZA9w2ZELqR3sHe57w4oJ1V42j"
     }
   }
