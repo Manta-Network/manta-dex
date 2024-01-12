@@ -219,7 +219,7 @@ export const EVM_NETWORKS: ParachainId[] = [
 export const SUBSTRATE_NETWORKS = [
   // ParachainId.BIFROST_KUSAMA,
   // ParachainId.BIFROST_POLKADOT,
-  ParachainId.CALAMARI_KUSAMA,
+  // ParachainId.CALAMARI_KUSAMA,
   ParachainId.MANTA_STAGING,
   // ParachainId.MANTA_POLKADOT,
 ]

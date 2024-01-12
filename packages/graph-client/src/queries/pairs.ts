@@ -184,7 +184,7 @@ export async function fetchPairs({
       query: PAIRS,
       variables: {
         ...defaultPairsFetcherParams,
-        limit: chainId === ParachainId.CALAMARI_KUSAMA ? 70 : limit,
+        limit,
         orderBy,
       },
     })

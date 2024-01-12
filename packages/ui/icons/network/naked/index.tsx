@@ -30,7 +30,7 @@ export const NETWORK_NAKED_ICON: Record<number, (props: React.ComponentProps<'sv
   // [ParachainId.ASTAR]: AstarNaked,
   // [ParachainId.BIFROST_KUSAMA]: BifrostNaked,
   // [ParachainId.BIFROST_POLKADOT]: BifrostNaked,
-  [ParachainId.CALAMARI_KUSAMA]: CalamariNaked,
+  // [ParachainId.CALAMARI_KUSAMA]: CalamariNaked,
   [ParachainId.MANTA_STAGING]: MantaNaked,
   // [ParachainId.MANTA_POLKADOT]: MantaNaked,
   // [ParachainId.ARBITRUM_ONE]: ArbitrumNaked,

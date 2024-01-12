@@ -118,9 +118,9 @@ export const BASES_TO_CHECK_TRADES_AGAINST: { readonly [chainId: number]: Token[
   //     name: 'Voucher Slot DOT',
   //   }),
   // ],
-  [ParachainId.CALAMARI_KUSAMA]: [
-    WNATIVE[ParachainId.CALAMARI_KUSAMA],
-  ],
+  // [ParachainId.CALAMARI_KUSAMA]: [
+  //   WNATIVE[ParachainId.CALAMARI_KUSAMA],
+  // ],
   [ParachainId.MANTA_STAGING]: [
     WNATIVE[ParachainId.MANTA_STAGING],
   ],

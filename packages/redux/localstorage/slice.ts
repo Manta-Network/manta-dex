@@ -35,7 +35,7 @@ const initialState: StorageState = {
   customTokens: parsedState?.customTokens || {},
   transactionDeadline: 30,
   notifications: parsedState?.notifications || {},
-  parachainId: parsedState?.parachainId || ParachainId.CALAMARI_KUSAMA,
+  parachainId: parsedState?.parachainId || ParachainId.MANTA_STAGING,
   polkadotConnector: parsedState?.polkadotConnector || undefined,
   polkadotAddress: parsedState?.polkadotAddress || undefined,
   userLocale: parsedState?.userLocale || 'en-US',

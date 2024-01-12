@@ -37,11 +37,11 @@ export const CLIENTS: Record<number | string, ApolloClient<NormalizedCacheObject
   //   link: createLink(ParachainId.BIFROST_KUSAMA),
   //   cache: new InMemoryCache(),
   // }),
-  [ParachainId.CALAMARI_KUSAMA]: new ApolloClient({
-    ...DEFAULT_CLIENT_OPTIONS,
-    link: createLink(ParachainId.CALAMARI_KUSAMA),
-    cache: new InMemoryCache(),
-  }),
+  // [ParachainId.CALAMARI_KUSAMA]: new ApolloClient({
+  //   ...DEFAULT_CLIENT_OPTIONS,
+  //   link: createLink(ParachainId.CALAMARI_KUSAMA),
+  //   cache: new InMemoryCache(),
+  // }),
   [ParachainId.MANTA_STAGING]: new ApolloClient({
     ...DEFAULT_CLIENT_OPTIONS,
     link: createLink(ParachainId.MANTA_STAGING),
@@ -70,11 +70,11 @@ export const ARCHIVE_CLIENTS: Record<number | string, ApolloClient<NormalizedCac
   //   link: createLink(ParachainId.BIFROST_POLKADOT, { useArchive: true }),
   //   cache: new InMemoryCache(),
   // }),
-  [ParachainId.CALAMARI_KUSAMA]: new ApolloClient({
-    ...DEFAULT_CLIENT_OPTIONS,
-    link: createLink(ParachainId.CALAMARI_KUSAMA, { useArchive: true }),
-    cache: new InMemoryCache(),
-  }),
+  // [ParachainId.CALAMARI_KUSAMA]: new ApolloClient({
+  //   ...DEFAULT_CLIENT_OPTIONS,
+  //   link: createLink(ParachainId.CALAMARI_KUSAMA, { useArchive: true }),
+  //   cache: new InMemoryCache(),
+  // }),
   [ParachainId.MANTA_STAGING]: new ApolloClient({
     ...DEFAULT_CLIENT_OPTIONS,
     link: createLink(ParachainId.MANTA_STAGING, { useArchive: true }),

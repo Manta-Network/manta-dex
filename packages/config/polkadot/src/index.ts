@@ -67,25 +67,25 @@ export const parachains: ParaChain[] = [
   //     typesBundle: bifrostTypesBundle,
   //   },
   // },
-  {
-    id: ParachainId.CALAMARI_KUSAMA,
-    name: 'Calamari Network',
-    network: 'calamari kusama',
-    nativeCurrency: { name: 'Calamari', symbol: 'KMA', decimals: 12 },
-    endpoints: [
-      'wss://zenlink.zqhxuyuan.cloud:444',
-    ],
-    blockExplorers: {
-      default: {
-        name: 'subscan',
-        url: 'https://calamari.subscan.io',
-      },
-    },
-    apiOptions: {
-      rpc,
-      types,
-    },
-  },
+  // {
+  //   id: ParachainId.CALAMARI_KUSAMA,
+  //   name: 'Calamari Network',
+  //   network: 'calamari kusama',
+  //   nativeCurrency: { name: 'Calamari', symbol: 'KMA', decimals: 12 },
+  //   endpoints: [
+  //     'wss://zenlink.zqhxuyuan.cloud:444',
+  //   ],
+  //   blockExplorers: {
+  //     default: {
+  //       name: 'subscan',
+  //       url: 'https://calamari.subscan.io',
+  //     },
+  //   },
+  //   apiOptions: {
+  //     rpc,
+  //     types,
+  //   },
+  // },
   {
     id: ParachainId.MANTA_STAGING,
     name: 'Manta Staging',

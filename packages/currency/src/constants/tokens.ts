@@ -61,13 +61,13 @@ export const WNATIVE: Record<keyof typeof WNATIVE_ADDRESS, Token> = {
   //   symbol: 'BNC',
   //   name: 'Bifrost',
   // }),
-  [ParachainId.CALAMARI_KUSAMA]: new Token({
-    chainId: ParachainId.CALAMARI_KUSAMA,
-    address: WNATIVE_ADDRESS[ParachainId.CALAMARI_KUSAMA],
-    decimals: 12,
-    symbol: 'KMA',
-    name: 'Calamari',
-  }),
+  // [ParachainId.CALAMARI_KUSAMA]: new Token({
+  //   chainId: ParachainId.CALAMARI_KUSAMA,
+  //   address: WNATIVE_ADDRESS[ParachainId.CALAMARI_KUSAMA],
+  //   decimals: 12,
+  //   symbol: 'KMA',
+  //   name: 'Calamari',
+  // }),
   [ParachainId.MANTA_STAGING]: new Token({
     chainId: ParachainId.MANTA_STAGING,
     address: WNATIVE_ADDRESS[ParachainId.MANTA_STAGING],

@@ -171,7 +171,7 @@ export async function fetchSingleTokenLocks({
       query: SINGLE_TOKEN_LOCKS,
       variables: {
         ...defaultPairsFetcherParams,
-        limit: chainId === ParachainId.CALAMARI_KUSAMA ? 70 : limit,
+        limit,
         orderBy,
       },
     })
