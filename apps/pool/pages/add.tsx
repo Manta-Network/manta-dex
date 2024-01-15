@@ -44,7 +44,7 @@ const LINKS: BreadcrumbLink[] = [
 ]
 
 const Add = () => {
-  const [chainId, setChainId] = useState(ParachainId.CALAMARI_KUSAMA)
+  const [chainId, setChainId] = useState(ParachainId.MANTA_POLKADOT)
   const [poolType, setPoolType] = useState(PoolFinderType.Standard)
   const [pool, setPool] = useState<Pool | undefined>()
   const [selectedStablePool, setStablePool] = useState<StableSwap | undefined>()

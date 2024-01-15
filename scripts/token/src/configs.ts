@@ -20,7 +20,7 @@ export default {
   mantaStaging: {
     networkId: 510,
     chainId: 2104,
-    endPoint: 'wss://c1.baikal.testnet.manta.systems',
+    endPoint: 'wss://c1.manta.seabird.systems',
     distTokensTitle: 'manta staging',
     distTokensFilePath: path.resolve(
       __dirname,
@@ -36,8 +36,8 @@ export default {
   manta: {
     networkId: 500,
     chainId: 2104,
-    endPoint: 'wss://ws.manta.systems',
-    distTokensTitle: 'manta polkadot',
+    endPoint: 'wss://ws.archive.manta.systems',
+    distTokensTitle: 'manta atlantic',
     distTokensFilePath: path.resolve(
       __dirname,
       '../../../packages/token-lists/lists/manta-polkadot.json',

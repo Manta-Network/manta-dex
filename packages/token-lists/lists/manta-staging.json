@@ -1,6 +1,6 @@
 {
   "name": "manta staging",
-  "timestamp": "2023-07-25T06:25:55.490Z",
+  "timestamp": "2024-01-15T05:11:01.436Z",
   "tokens": [
     {
       "networkId": 510,
@@ -15,23 +15,13 @@
     },
     {
       "networkId": 510,
-      "address": "2104-2-9",
-      "parachainId": 2104,
-      "assetType": 2,
-      "assetIndex": 9,
-      "symbol": "USDT",
-      "decimals": 6,
-      "name": "Tether USD"
-    },
-    {
-      "networkId": 510,
       "address": "2104-2-31",
       "parachainId": 2104,
       "assetType": 2,
       "assetIndex": 31,
-      "symbol": "MANDEX",
-      "decimals": 12,
-      "name": "MANDEX"
+      "symbol": "DAI.MRL.ETH",
+      "decimals": 18,
+      "name": "DAI Stablecoin (MRL)"
     },
     {
       "networkId": 510,
@@ -55,23 +45,13 @@
     },
     {
       "networkId": 510,
-      "address": "2104-2-12",
+      "address": "2104-2-15",
       "parachainId": 2104,
       "assetType": 2,
-      "assetIndex": 12,
-      "symbol": "LDOT",
-      "decimals": 10,
-      "name": "Liquid DOT"
-    },
-    {
-      "networkId": 510,
-      "address": "2104-2-11",
-      "parachainId": 2104,
-      "assetType": 2,
-      "assetIndex": 11,
-      "symbol": "ACA",
-      "decimals": 12,
-      "name": "Acala"
+      "assetIndex": 15,
+      "symbol": "LDO",
+      "decimals": 18,
+      "name": "Lido (via Acala Wormhole)"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "name": "manta polkadot",
-  "timestamp": "2023-06-13T09:21:34.108Z",
+  "name": "manta atlantic",
+  "timestamp": "2024-01-15T05:16:18.834Z",
   "tokens": [
     {
       "networkId": 500,
@@ -11,7 +11,27 @@
       "assetIndex": 0,
       "symbol": "MANTA",
       "decimals": 18,
-      "name": "Manta"
+      "name": "MANTA"
+    },
+    {
+      "networkId": 500,
+      "address": "2104-2-8",
+      "parachainId": 2104,
+      "assetType": 2,
+      "assetIndex": 8,
+      "symbol": "DOT",
+      "decimals": 10,
+      "name": "Polkadot"
+    },
+    {
+      "networkId": 500,
+      "address": "2104-2-10",
+      "parachainId": 2104,
+      "assetType": 2,
+      "assetIndex": 10,
+      "symbol": "GLMR",
+      "decimals": 18,
+      "name": "Moonbeam"
     }
   ]
 }
