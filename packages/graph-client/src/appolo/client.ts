@@ -47,6 +47,11 @@ export const CLIENTS: Record<number | string, ApolloClient<NormalizedCacheObject
     link: createLink(ParachainId.MANTA_STAGING),
     cache: new InMemoryCache(),
   }),
+  [ParachainId.MANTA_POLKADOT]: new ApolloClient({
+    ...DEFAULT_CLIENT_OPTIONS,
+    link: createLink(ParachainId.MANTA_POLKADOT),
+    cache: new InMemoryCache(),
+  }),
   // [ParachainId.BIFROST_POLKADOT]: new ApolloClient({
   //   ...DEFAULT_CLIENT_OPTIONS,
   //   link: createLink(ParachainId.BIFROST_POLKADOT),
@@ -78,6 +83,11 @@ export const ARCHIVE_CLIENTS: Record<number | string, ApolloClient<NormalizedCac
   [ParachainId.MANTA_STAGING]: new ApolloClient({
     ...DEFAULT_CLIENT_OPTIONS,
     link: createLink(ParachainId.MANTA_STAGING, { useArchive: true }),
+    cache: new InMemoryCache(),
+  }),
+  [ParachainId.MANTA_POLKADOT]: new ApolloClient({
+    ...DEFAULT_CLIENT_OPTIONS,
+    link: createLink(ParachainId.MANTA_POLKADOT, { useArchive: true }),
     cache: new InMemoryCache(),
   }),
 }

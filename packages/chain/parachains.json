@@ -91,7 +91,7 @@
     },
     "infoURL": "https://www.manta.network",
     "shortName": "manta-staging",
-    "chainId": 2104,
+    "chainId": 21040,
     "networkId": 510,
     "explorers": [
       {
@@ -102,8 +102,8 @@
     ]
   },
   {
-    "name": "Manta Network",
-    "chain": "Manta Network",
+    "name": "Manta Atlantic",
+    "chain": "Manta Atlantic",
     "rpc": [
       "wss://ws.manta.systems"
     ],
@@ -116,7 +116,7 @@
     },
     "infoURL": "https://www.manta.network",
     "shortName": "manta-polkadot",
-    "chainId": 21040,
+    "chainId": 2104,
     "networkId": 500,
     "explorers": [
       {

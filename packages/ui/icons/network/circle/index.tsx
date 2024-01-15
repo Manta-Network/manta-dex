@@ -32,6 +32,6 @@ export const NETWORK_CIRCLE_ICON: Record<number, (props: React.ComponentProps<'s
   // [ParachainId.BIFROST_POLKADOT]: BifrostCircle,
   // [ParachainId.CALAMARI_KUSAMA]: CalamariCircle,
   [ParachainId.MANTA_STAGING]: MantaCircle,
-  // [ParachainId.MANTA_POLKADOT]: MantaCircle,
+  [ParachainId.MANTA_POLKADOT]: MantaCircle,
   // [ParachainId.ARBITRUM_ONE]: ArbitrumCircle,
 }

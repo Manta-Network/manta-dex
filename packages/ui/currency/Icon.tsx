@@ -35,7 +35,7 @@ const LOGO: Record<number, string> = {
   // [ParachainId.ARBITRUM_ONE]: EthereumLogo,
   // [ParachainId.CALAMARI_KUSAMA]: CalamariLogo,
   [ParachainId.MANTA_STAGING]: MantaLogo,
-  // [ParachainId.MANTA_POLKADOT]: MantaLogo,
+  [ParachainId.MANTA_POLKADOT]: MantaLogo,
 }
 
 export interface IconProps extends Omit<ImageProps, 'src' | 'alt'> {

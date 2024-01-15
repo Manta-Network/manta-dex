@@ -124,6 +124,9 @@ export const BASES_TO_CHECK_TRADES_AGAINST: { readonly [chainId: number]: Token[
   [ParachainId.MANTA_STAGING]: [
     WNATIVE[ParachainId.MANTA_STAGING],
   ],
+  [ParachainId.MANTA_POLKADOT]: [
+    WNATIVE[ParachainId.MANTA_POLKADOT],
+  ],
 }
 
 export const ADDITIONAL_BASES: {

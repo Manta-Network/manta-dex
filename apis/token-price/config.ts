@@ -8,6 +8,7 @@ export const AMM_SUPPORTED_CHAINS = [
   // ParachainId.BIFROST_POLKADOT,
   // ParachainId.CALAMARI_KUSAMA,
   ParachainId.MANTA_STAGING,
+  ParachainId.MANTA_POLKADOT,
 ]
 
 export const UNI_SUPPORTED_CHAINS: ParachainId[] = [

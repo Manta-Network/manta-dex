@@ -105,25 +105,23 @@ export const parachains: ParaChain[] = [
       types,
     },
   },
-  // {
-  //   id: ParachainId.MANTA_POLKADOT,
-  //   name: 'Manta Polkadot',
-  //   network: 'manta polkadot',
-  //   nativeCurrency: { name: 'Manta', symbol: 'MANTA', decimals: 18 },
-  //   endpoints: [
-  //     'wss://manta.seabird.systems',
-  //   ],
-  //   blockExplorers: {
-  //     default: {
-  //       name: 'subscan',
-  //       url: 'https://manta.subscan.io',
-  //     },
-  //   },
-  //   apiOptions: {
-  //     rpc: bifrostRpc,
-  //     types: bifrostTypes,
-  //     typesAlias: bifrostTypeAlias,
-  //     typesBundle: bifrostTypesBundle,
-  //   },
-  // },
+  {
+    id: ParachainId.MANTA_POLKADOT,
+    name: 'Manta Atlantic',
+    network: 'manta atlantic',
+    nativeCurrency: { name: 'Manta', symbol: 'MANTA', decimals: 18 },
+    endpoints: [
+      'wss://ws.archive.manta.systems',
+    ],
+    blockExplorers: {
+      default: {
+        name: 'subscan',
+        url: 'https://manta.subscan.io',
+      },
+    },
+    apiOptions: {
+      rpc,
+      types,
+    },
+  },
 ]
