@@ -67,25 +67,25 @@ export const parachains: ParaChain[] = [
   //     typesBundle: bifrostTypesBundle,
   //   },
   // },
-  {
-    id: ParachainId.CALAMARI_KUSAMA,
-    name: 'Calamari Network',
-    network: 'calamari kusama',
-    nativeCurrency: { name: 'Calamari', symbol: 'KMA', decimals: 12 },
-    endpoints: [
-      'wss://zenlink.zqhxuyuan.cloud:444',
-    ],
-    blockExplorers: {
-      default: {
-        name: 'subscan',
-        url: 'https://calamari.subscan.io',
-      },
-    },
-    apiOptions: {
-      rpc,
-      types,
-    },
-  },
+  // {
+  //   id: ParachainId.CALAMARI_KUSAMA,
+  //   name: 'Calamari Network',
+  //   network: 'calamari kusama',
+  //   nativeCurrency: { name: 'Calamari', symbol: 'KMA', decimals: 12 },
+  //   endpoints: [
+  //     'wss://zenlink.zqhxuyuan.cloud:444',
+  //   ],
+  //   blockExplorers: {
+  //     default: {
+  //       name: 'subscan',
+  //       url: 'https://calamari.subscan.io',
+  //     },
+  //   },
+  //   apiOptions: {
+  //     rpc,
+  //     types,
+  //   },
+  // },
   {
     id: ParachainId.MANTA_STAGING,
     name: 'Manta Staging',
@@ -105,25 +105,23 @@ export const parachains: ParaChain[] = [
       types,
     },
   },
-  // {
-  //   id: ParachainId.MANTA_POLKADOT,
-  //   name: 'Manta Polkadot',
-  //   network: 'manta polkadot',
-  //   nativeCurrency: { name: 'Manta', symbol: 'MANTA', decimals: 18 },
-  //   endpoints: [
-  //     'wss://manta.seabird.systems',
-  //   ],
-  //   blockExplorers: {
-  //     default: {
-  //       name: 'subscan',
-  //       url: 'https://manta.subscan.io',
-  //     },
-  //   },
-  //   apiOptions: {
-  //     rpc: bifrostRpc,
-  //     types: bifrostTypes,
-  //     typesAlias: bifrostTypeAlias,
-  //     typesBundle: bifrostTypesBundle,
-  //   },
-  // },
+  {
+    id: ParachainId.MANTA_POLKADOT,
+    name: 'Manta Atlantic',
+    network: 'manta atlantic',
+    nativeCurrency: { name: 'Manta', symbol: 'MANTA', decimals: 18 },
+    endpoints: [
+      'wss://ws.archive.manta.systems',
+    ],
+    blockExplorers: {
+      default: {
+        name: 'subscan',
+        url: 'https://manta.subscan.io',
+      },
+    },
+    apiOptions: {
+      rpc,
+      types,
+    },
+  },
 ]

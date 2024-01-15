@@ -53,8 +53,8 @@ export enum EthereumChainId {
 
 export enum ParachainId {
   CALAMARI_KUSAMA = 2084,
-  MANTA_STAGING = 2104,
-  MANTA_POLKADOT = 21040,
+  MANTA_STAGING = 21040,
+  MANTA_POLKADOT = 2104,
   ASTAR = 2006,
   MOONRIVER = 2023,
   MOONBEAM = 2004,
@@ -66,7 +66,7 @@ export enum ParachainId {
 export enum ChainKey {
   CALAMARI_KUSAMA = 'Calamari Network',
   MANTA_STAGING = 'Manta Staging',
-  MANTA_POLKADOT = 'Manta Network',
+  MANTA_POLKADOT = 'Manta Atlantic',
   ASTAR = 'Astar',
   MOONBEAM = 'Moonbeam',
   MOONRIVER = 'Moonriver',
@@ -97,11 +97,11 @@ export interface Chain {
 }
 
 // export const CHAIN_NAMES = ['Astar', 'Moonbeam', 'Moonriver', 'Bifrost Kusama', 'Bifrost Polkadot', 'Arbitrum One', 'Calamari Network', 'Manta Polkadot']
-export const CHAIN_NAMES = ['Calamari Network', 'Manta Staging', 'Manta Network']
+export const CHAIN_NAMES = ['Manta Atlantic']
 export const PARACHAIN_ID_MAP: { [chainName: string]: number } = {
   'Calamari Network': 2084,
-  'Manta Staging': 2104,
-  'Manta Network': 21040,
+  'Manta Staging': 21040,
+  'Manta Atlantic': 2104,
   'Astar': 2006,
   'Moonriver': 2023,
   'Moonbeam': 2004,
@@ -219,9 +219,9 @@ export const EVM_NETWORKS: ParachainId[] = [
 export const SUBSTRATE_NETWORKS = [
   // ParachainId.BIFROST_KUSAMA,
   // ParachainId.BIFROST_POLKADOT,
-  ParachainId.CALAMARI_KUSAMA,
+  // ParachainId.CALAMARI_KUSAMA,
   ParachainId.MANTA_STAGING,
-  // ParachainId.MANTA_POLKADOT,
+  ParachainId.MANTA_POLKADOT,
 ]
 
 export function isEvmNetwork(chainId: ParachainId) {

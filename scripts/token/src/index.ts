@@ -3,7 +3,7 @@ import { ApiPromise, WsProvider } from '@polkadot/api'
 import configs from './configs'
 
 // please confirm an right chain before use this script
-const currentChain = configs.mantaStaging
+const currentChain = configs.manta
 
 const writeFileSync = (filePath: string, content: any) => {
   fs.writeFileSync(filePath, JSON.stringify(content, null, 2))

@@ -1,6 +1,6 @@
 {
   "name": "manta staging",
-  "timestamp": "2024-01-10T09:19:07.087Z",
+  "timestamp": "2024-01-15T05:11:01.436Z",
   "tokens": [
     {
       "networkId": 510,
@@ -32,6 +32,16 @@
       "symbol": "DOT",
       "decimals": 10,
       "name": "Polkadot"
+    },
+    {
+      "networkId": 510,
+      "address": "2104-2-10",
+      "parachainId": 2104,
+      "assetType": 2,
+      "assetIndex": 10,
+      "symbol": "GLMR",
+      "decimals": 18,
+      "name": "Moonbeam"
     },
     {
       "networkId": 510,
