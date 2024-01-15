@@ -86,25 +86,25 @@ export const parachains: ParaChain[] = [
   //     types,
   //   },
   // },
-  {
-    id: ParachainId.MANTA_STAGING,
-    name: 'Manta Staging',
-    network: 'manta staging',
-    nativeCurrency: { name: 'Manta', symbol: 'MANTA', decimals: 18 },
-    endpoints: [
-      'wss://c1.manta.seabird.systems',
-    ],
-    blockExplorers: {
-      default: {
-        name: 'subscan',
-        url: 'https://manta.subscan.io',
-      },
-    },
-    apiOptions: {
-      rpc,
-      types,
-    },
-  },
+  // {
+  //   id: ParachainId.MANTA_STAGING,
+  //   name: 'Manta Staging',
+  //   network: 'manta staging',
+  //   nativeCurrency: { name: 'Manta', symbol: 'MANTA', decimals: 18 },
+  //   endpoints: [
+  //     'wss://c1.manta.seabird.systems',
+  //   ],
+  //   blockExplorers: {
+  //     default: {
+  //       name: 'subscan',
+  //       url: 'https://manta.subscan.io',
+  //     },
+  //   },
+  //   apiOptions: {
+  //     rpc,
+  //     types,
+  //   },
+  // },
   {
     id: ParachainId.MANTA_POLKADOT,
     name: 'Manta Atlantic',
