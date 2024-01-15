@@ -36,8 +36,8 @@ export default {
   manta: {
     networkId: 500,
     chainId: 2104,
-    endPoint: 'wss://ws.manta.systems',
-    distTokensTitle: 'manta polkadot',
+    endPoint: 'wss://ws.archive.manta.systems',
+    distTokensTitle: 'manta atlantic',
     distTokensFilePath: path.resolve(
       __dirname,
       '../../../packages/token-lists/lists/manta-polkadot.json',
