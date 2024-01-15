@@ -7,7 +7,7 @@ export const AMM_ENABLED_NETWORKS: ParachainId[] = [
   // ParachainId.BIFROST_KUSAMA,
   // ParachainId.BIFROST_POLKADOT,
   // ParachainId.CALAMARI_KUSAMA,
-  ParachainId.MANTA_STAGING,
+  // ParachainId.MANTA_STAGING,
   ParachainId.MANTA_POLKADOT,
 ]
 

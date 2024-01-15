@@ -97,11 +97,11 @@ export interface Chain {
 }
 
 // export const CHAIN_NAMES = ['Astar', 'Moonbeam', 'Moonriver', 'Bifrost Kusama', 'Bifrost Polkadot', 'Arbitrum One', 'Calamari Network', 'Manta Polkadot']
-export const CHAIN_NAMES = ['Calamari Network', 'Manta Staging', 'Manta Network']
+export const CHAIN_NAMES = ['Manta Atlantic']
 export const PARACHAIN_ID_MAP: { [chainName: string]: number } = {
   'Calamari Network': 2084,
   'Manta Staging': 21040,
-  'Manta Network': 2104,
+  'Manta Atlantic': 2104,
   'Astar': 2006,
   'Moonriver': 2023,
   'Moonbeam': 2004,
