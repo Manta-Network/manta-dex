@@ -9,8 +9,8 @@ export const Header = () => {
       apptype={AppType.Analytics}
       nav={
         <>
-          <App.NavItem href="https://manta-dex-app.vercel.app/swap" label="Swap" />
-          <App.NavItem href="https://manta-dex-app.vercel.app/pool" label="Pool" />
+          <App.NavItem href="https://mantadex.com/swap" label="Swap" />
+          <App.NavItem href="https://mantadex.com/pool" label="Pool" />
         </>
       }
     >
