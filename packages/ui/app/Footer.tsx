@@ -58,22 +58,22 @@ const config: Array<FootItem> = [
       {
         msgId: 'Swap',
         name: <Trans>Swap</Trans>,
-        href: 'https://manta-dex-app.vercel.app/swap',
+        href: 'https://mantadex.com/swap',
       },
       {
         msgId: 'Pool',
         name: <Trans>Pool</Trans>,
-        href: 'https://manta-dex-app.vercel.app/pool',
+        href: 'https://mantadex.com/pool',
       },
       // {
       //   msgId: 'Referrals',
       //   name: <Trans>Referrals</Trans>,
-      //   href: 'https://manta-dex-app.vercel.app/referrals',
+      //   href: 'https://mantadex.com/referrals',
       // },
       // {
       //   msgId: 'Analytics',
       //   name: <Trans>Analytics</Trans>,
-      //   href: 'https://manta-dex-app.vercel.app/analytics',
+      //   href: 'https://mantadex.com/analytics',
       // },
     ],
   },
