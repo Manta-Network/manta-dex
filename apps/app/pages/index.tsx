@@ -16,11 +16,11 @@ export default function Index() {
             <br /> for Manta ZK Ecosystem
           </div>
           <div className="text-white lg:max-w-[505px]">
-            Manta Network is dedicated to building a private, secure, and
-            interoperable future driven by Zero-Knowledge technology. We firmly
-            believe in the fundamental human right to privacy, and our mission
-            is to develop and deploy advanced tools that enable privacy through
-            the use of zero-knowledge proofs.
+            MantaDEX is a groundbreaking exchange on the Manta Network. Dive
+            into a realm of innovation driven by modular ZK systems, shaping the
+            future of web3 ecosystems and decentralized applications. Join us in
+            redefining secure and interoperable trading experiences, guided by
+            the strength of Zero-Knowledge technology.
           </div>
           <a href="/swap">
             <div className="mt-4 w-[120px] text-white flex justify-between">
