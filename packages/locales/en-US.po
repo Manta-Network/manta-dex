@@ -1259,8 +1259,8 @@ msgstr "Clear"
 #~ msgstr "Authorize Wallet"
 
 #: packages/ui/app/Footer.tsx
-msgid "Powered By Manta DEX"
-msgstr "Powered By Manta DEX"
+msgid "Powered By Zenlink"
+msgstr "Powered By Zenlink"
 
 #: apps/pool/components/RemoveSection/RemoveSectionStable.tsx
 #: apps/pool/components/RemoveSection/RemoveSectionStandard.tsx

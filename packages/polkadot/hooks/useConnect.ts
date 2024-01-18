@@ -22,9 +22,9 @@ export const connectors: Connector[] = [
     installUrl: 'https://www.talisman.xyz/wallet',
   },
   {
-    source: ConnectorSource.Subwallet,
-    id: ConnectorSource.Subwallet,
-    name: 'Subwallet',
+    source: ConnectorSource.SubWallet,
+    id: ConnectorSource.SubWallet,
+    name: 'SubWallet',
     installUrl: 'https://www.subwallet.app/download.html',
   },
 ]

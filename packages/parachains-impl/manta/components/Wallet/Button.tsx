@@ -7,7 +7,7 @@ import {
   MantaWalletIcon,
   Menu,
   PolkadotwalletIcon,
-  SubwalletIcon,
+  SubWalletIcon,
   TalismanIcon,
   Button as UIButton,
 } from '@zenlink-interface/ui'
@@ -22,7 +22,7 @@ declare global {
 const Icons: Record<string, ReactNode> = {
   'MantaWallet': <MantaWalletIcon width={16} height={16} />,
   'Polkadot-js': <PolkadotwalletIcon width={16} height={16} />,
-  'Subwallet': <SubwalletIcon width={16} height={16} />,
+  'SubWallet': <SubWalletIcon width={16} height={16} />,
   'Talisman': <TalismanIcon width={16} height={16} />,
 }
 
