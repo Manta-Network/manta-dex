@@ -206,9 +206,9 @@ export function Footer(props: FooterProps): JSX.Element {
       </Container>
       <Container maxWidth="5xl" className="mx-auto mt-20 mb-2">
         <div className="flex justify-start py-2 mx-4 border-t border-slate-500/20 dark:border-slate-400/5">
-          <Link.External href="https://mantadex.com">
+          <Link.External href="https://zenlink.pro/">
             <Typography variant="xs" weight={500} className="px-3 text-slate-700 dark:text-slate-300">
-              <Trans>Powered By Manta DEX</Trans>
+              <Trans>Powered By Zenlink</Trans>
             </Typography>
           </Link.External>
         </div>

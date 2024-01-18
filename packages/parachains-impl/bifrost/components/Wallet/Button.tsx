@@ -7,7 +7,7 @@ import {
   MantaWalletIcon,
   Menu,
   PolkadotwalletIcon,
-  SubwalletIcon,
+  SubWalletIcon,
   TalismanIcon,
   Button as UIButton,
 } from '@zenlink-interface/ui'
@@ -15,7 +15,7 @@ import type { ReactNode } from 'react'
 
 const Icons: Record<string, ReactNode> = {
   'Polkadot-js': <PolkadotwalletIcon width={16} height={16} />,
-  'Subwallet': <SubwalletIcon width={16} height={16} />,
+  'SubWallet': <SubWalletIcon width={16} height={16} />,
   'Talisman': <TalismanIcon width={16} height={16} />,
   'MantaWallet': <MantaWalletIcon width={16} height={16} />,
 }

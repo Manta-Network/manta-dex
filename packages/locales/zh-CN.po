@@ -1219,7 +1219,7 @@ msgid "Clear"
 msgstr "清除"
 
 #: packages/ui/app/Footer.tsx
-msgid "Powered By Manta DEX"
+msgid "Powered By Zenlink"
 msgstr ""
 
 #: apps/pool/components/RemoveSection/RemoveSectionStable.tsx

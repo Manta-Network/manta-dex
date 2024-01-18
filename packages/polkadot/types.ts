@@ -62,7 +62,7 @@ export interface CallOptions<T> {
 
 export enum ConnectorSource {
   Polkadot = 'polkadot-js',
-  Subwallet = 'subwallet-js',
+  SubWallet = 'subwallet-js',
   Talisman = 'talisman',
   MantaWallet = 'manta-wallet-js',
 }
