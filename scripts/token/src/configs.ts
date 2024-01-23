@@ -4,7 +4,7 @@ export default {
   calamari: {
     networkId: 400,
     chainId: 2084,
-    endPoint: 'wss://zenlink.zqhxuyuan.cloud:444',
+    endPoint: 'wss://ws.archive.calamari.systems',
     distTokensTitle: 'calamari kusama',
     distTokensFilePath: path.resolve(
       __dirname,
