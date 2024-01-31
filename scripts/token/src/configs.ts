@@ -36,7 +36,8 @@ export default {
   manta: {
     networkId: 500,
     chainId: 2104,
-    endPoint: 'wss://ws.archive.manta.systems',
+    endPoint: 'wss://c1.manta.seabird.systems',
+    // endPoint: 'wss://ws.archive.manta.systems',
     distTokensTitle: 'manta atlantic',
     distTokensFilePath: path.resolve(
       __dirname,

@@ -1,6 +1,6 @@
 {
   "name": "manta atlantic",
-  "timestamp": "2024-01-15T05:16:18.834Z",
+  "timestamp": "2024-01-31T05:52:09.823Z",
   "tokens": [
     {
       "networkId": 500,
@@ -20,8 +20,8 @@
       "assetType": 2,
       "assetIndex": 8,
       "symbol": "DOT",
-      "decimals": 10,
-      "name": "Polkadot"
+      "decimals": 1,
+      "name": "DOT"
     },
     {
       "networkId": 500,
@@ -32,6 +32,26 @@
       "symbol": "GLMR",
       "decimals": 18,
       "name": "Moonbeam"
+    },
+    {
+      "networkId": 500,
+      "address": "2104-2-36",
+      "parachainId": 2104,
+      "assetType": 2,
+      "assetIndex": 36,
+      "symbol": "MANDEX",
+      "decimals": 12,
+      "name": "MANDEX"
+    },
+    {
+      "networkId": 500,
+      "address": "2104-2-15",
+      "parachainId": 2104,
+      "assetType": 2,
+      "assetIndex": 15,
+      "symbol": "LDO",
+      "decimals": 18,
+      "name": "Lido (via Acala Wormhole)"
     }
   ]
 }
