@@ -1,6 +1,6 @@
 {
   "name": "manta atlantic",
-  "timestamp": "2024-01-31T05:52:09.823Z",
+  "timestamp": "2024-01-31T07:09:09.256Z",
   "tokens": [
     {
       "networkId": 500,
@@ -20,8 +20,8 @@
       "assetType": 2,
       "assetIndex": 8,
       "symbol": "DOT",
-      "decimals": 1,
-      "name": "DOT"
+      "decimals": 10,
+      "name": "Polkadot"
     },
     {
       "networkId": 500,
