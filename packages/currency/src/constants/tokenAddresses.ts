@@ -47,6 +47,7 @@ export const USDT_ADDRESS: Record<number | string, string> = {
   // [ParachainId.BIFROST_KUSAMA]: '2001-2-2048',
   // [ParachainId.CALAMARI_KUSAMA]: '2084-2-14',
   // [ParachainId.MANTA_STAGING]: '2104-2-9',
+  [ParachainId.MANTA_POLKADOT]: '2104-2-9',
 }
 
 export const DAI_ADDRESS: Record<number | string, string> = {
