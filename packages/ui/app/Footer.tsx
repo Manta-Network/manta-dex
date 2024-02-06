@@ -125,7 +125,7 @@ const config: Array<FootItem> = [
       {
         msgId: 'Wiki/Docs',
         name: <Trans>Wiki/Docs</Trans>,
-        href: 'https://docs.manta.network',
+        href: 'https://mantadex.gitbook.io/',
         target: '_blank',
         rel: 'noopener noreferrer',
       },

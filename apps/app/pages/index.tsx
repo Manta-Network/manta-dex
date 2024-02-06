@@ -80,12 +80,13 @@ export default function Index() {
                 <div className="pb-2">
                   <Image priority width={100} src={IconC} alt="Trade Now" />
                 </div>
-                You can stake MANDX tokens to earn fees during the second TGE
-                period.
+                You can stake MANDX tokens to earn fees and MANDX token rewards.
               </div>
-              <Button fullWidth disabled size="sm">
-                To be launched
-              </Button>
+              <a href="/pool">
+                <Button fullWidth disabled size="sm">
+                  Stake Now
+                </Button>
+              </a>
             </div>
           </div>
         </div>
