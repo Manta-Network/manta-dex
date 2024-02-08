@@ -1,10 +1,14 @@
 {
   "name": "Manta Pairs",
-  "timestamp": "2024-01-15T05:16:18.837Z",
+  "timestamp": "2024-02-01T03:54:53.545Z",
   "pairs": {
     "2104-0-0-2104-2-10": {
       "address": "2104-2-37",
       "account": "dfZ2W8UP6LgvVLKEzTtoZJoLinXcGxVupwMfrLeY1ccJTgCsZ"
+    },
+    "2104-0-0-2104-2-9": {
+      "address": "2104-2-38",
+      "account": "dfZ2W8UP6LgvVLKEzTtoZgPzrS2kSVm7FkbrUKXTpKsC1VBzk"
     },
     "2104-0-0-2104-2-8": {
       "address": "2104-2-36",

@@ -1,6 +1,6 @@
 {
   "name": "manta atlantic",
-  "timestamp": "2024-01-15T05:16:18.834Z",
+  "timestamp": "2024-02-01T03:54:53.544Z",
   "tokens": [
     {
       "networkId": 500,
@@ -12,6 +12,16 @@
       "symbol": "MANTA",
       "decimals": 18,
       "name": "MANTA"
+    },
+    {
+      "networkId": 500,
+      "address": "2104-2-9",
+      "parachainId": 2104,
+      "assetType": 2,
+      "assetIndex": 9,
+      "symbol": "USDT",
+      "decimals": 6,
+      "name": "Tether USD"
     },
     {
       "networkId": 500,
