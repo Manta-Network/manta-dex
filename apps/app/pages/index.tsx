@@ -64,7 +64,7 @@ export default function Index() {
                   <Image priority width={100} src={IconB} alt="Trade Now" />
                 </div>
                 Supply a token pair to receive liquidity provider (LP) tokens.
-                Stake LP tokens to mine MANDX! Be sure to catch up with the
+                Stake LP tokens to mine MANDEX! Be sure to catch up with the
                 First Mine Period!
               </div>
               <a href="/pool">
@@ -80,12 +80,13 @@ export default function Index() {
                 <div className="pb-2">
                   <Image priority width={100} src={IconC} alt="Trade Now" />
                 </div>
-                You can stake MANDX tokens to earn fees during the second TGE
-                period.
+                You can stake MANDEX tokens to earn fees and MANDEX token rewards.
               </div>
-              <Button fullWidth disabled size="sm">
-                To be launched
-              </Button>
+              <a href="/pool">
+                <Button fullWidth size="sm">
+                  Stake Now
+                </Button>
+              </a>
             </div>
           </div>
         </div>
