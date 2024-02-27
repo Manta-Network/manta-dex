@@ -168,6 +168,11 @@ export const StakeSectionWidgetStandardItem: FC<StakeSectionWidgetStandardItemPr
     amountToStake,
     pid,
   })
+
+  const isDisabledOnProd = useMemo(() => {
+    return window.location.host === 'mantadex.com'
+  }, [])
+
   const stakeValue = useMemo(() => {
     if (!amountToStake || !balance || balance.equalTo(ZERO))
       return 0
@@ -312,7 +317,7 @@ export const StakeSectionWidgetStandardItem: FC<StakeSectionWidgetStandardItemPr
                           fullWidth
                           size="md"
                           variant="filled"
-                          disabled={!approved || isWritePending}
+                          disabled={!approved || isWritePending || isDisabledOnProd}
                         >
                           {isWritePending
                             ? <Dots><Trans>Confirm transaction</Trans></Dots>
