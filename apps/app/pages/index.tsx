@@ -83,7 +83,7 @@ export default function Index() {
                 You can stake MANDEX tokens to earn fees and MANDEX token rewards.
               </div>
               <a href="/pool">
-                <Button fullWidth disabled size="sm">
+                <Button fullWidth size="sm">
                   Stake Now
                 </Button>
               </a>
