@@ -111,8 +111,7 @@ export const parachains: ParaChain[] = [
     network: 'manta atlantic',
     nativeCurrency: { name: 'Manta', symbol: 'MANTA', decimals: 18 },
     endpoints: [
-      // 'wss://ws.archive.manta.systems',
-      'wss://c1.manta.seabird.systems',
+      'wss://ws.archive.manta.systems',
     ],
     blockExplorers: {
       default: {
