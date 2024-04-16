@@ -8,7 +8,7 @@ export const WNATIVE_ADDRESS: Record<number | string, string> = {
   // [ParachainId.BIFROST_KUSAMA]: '2001-0-0',
   // [ParachainId.BIFROST_POLKADOT]: '2030-0-0',
   [ParachainId.CALAMARI_KUSAMA]: '2084-0-0',
-  [ParachainId.MANTA_STAGING]: '2104-0-0',
+  // [ParachainId.MANTA_STAGING]: '2104-0-0',
   [ParachainId.MANTA_POLKADOT]: '2104-0-0',
 }
 
@@ -45,7 +45,7 @@ export const USDT_ADDRESS: Record<number | string, string> = {
   // [ParachainId.ASTAR]: '0xffffffff000000000000000000000001000007c0',
   // [ParachainId.ARBITRUM_ONE]: '0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9',
   // [ParachainId.BIFROST_KUSAMA]: '2001-2-2048',
-  // [ParachainId.CALAMARI_KUSAMA]: '2084-2-14',
+  [ParachainId.CALAMARI_KUSAMA]: '2084-2-14',
   // [ParachainId.MANTA_STAGING]: '2104-2-9',
   [ParachainId.MANTA_POLKADOT]: '2104-2-9',
 }
@@ -73,7 +73,7 @@ export const KSM_ADDRESS: Record<number | string, string> = {
 
 export const DOT_ADDRESS: Record<number | string, string> = {
   // [ParachainId.ASTAR]: '0xffffffffffffffffffffffffffffffffffffffff',
-  [ParachainId.MANTA_STAGING]: '2104-2-8',
+  // [ParachainId.MANTA_STAGING]: '2104-2-8',
   [ParachainId.MANTA_POLKADOT]: '2104-2-8',
 }
 
