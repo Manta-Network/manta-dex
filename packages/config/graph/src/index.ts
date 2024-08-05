@@ -30,5 +30,5 @@ export const ARCHIVE_HOST: Record<number | string, string> = {
   // [ParachainId.BIFROST_POLKADOT]: 'https://bifrost-polkadot.explorer.subsquid.io/graphql',
   // [ParachainId.CALAMARI_KUSAMA]: 'https://dev.calamari-debug.graphql.nonprod-mantadex.com/graphql',
   [ParachainId.MANTA_STAGING]: 'https://dev.manta-debug.graphql.nonprod-mantadex.com/graphql',
-  [ParachainId.MANTA_POLKADOT]: 'https://manta.archive.subsquid.io/graphql',
+  [ParachainId.MANTA_POLKADOT]: 'https://manta-gateway.ops.p0xlabs.systems/graphql',
 }
