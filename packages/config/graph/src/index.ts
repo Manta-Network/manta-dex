@@ -22,7 +22,7 @@ export const SQUID_HOST: Record<number | string, string> = {
   // [ParachainId.ARBITRUM_ONE]: 'https://api.thegraph.com/subgraphs/name/ianlapham/arbitrum-minimal',
   // [ParachainId.CALAMARI_KUSAMA]: `${SQUID_HOST_ENDPOINT}/manta-dex-calamari-debug-squid/v/v4/graphql`,
   [ParachainId.MANTA_STAGING]: `${SQUID_HOST_ENDPOINT}/manta-dex-manta-debug-squid/v/v4/graphql`,
-  [ParachainId.MANTA_POLKADOT]: `${SQUID_HOST_ENDPOINT}/manta-dex-manta-prod-squid/v/v4/graphql`,
+  [ParachainId.MANTA_POLKADOT]: `https://manta.squids.live/manta-dex-manta-prod-squid/v/v4/graphql`,
 }
 
 export const ARCHIVE_HOST: Record<number | string, string> = {
