@@ -53,13 +53,13 @@ const _Pools = ({ selectedNetworks }: { selectedNetworks: typeof SUPPORTED_CHAIN
               <Trans>Earn fees by providing liquidity.</Trans>
             </p>
           </div>
-          <div className="flex justify-end flex-grow not-prose">
+          {/* <div className="flex justify-end flex-grow not-prose">
             <div className="flex flex-col gap-3 w-full lg:w-[200px]">
               <Button as="a" href="/pool/add" fullWidth color="blue" startIcon={<PlusIcon width={16} height={16} />}>
                 <Trans>New Position</Trans>
               </Button>
             </div>
-          </div>
+          </div> */}
         </section>
         <PoolsFiltersProvider selectedNetworks={selectedNetworks}>
           <PoolsSection />
